@@ -39,8 +39,8 @@ address_list = list(set([address.get_text().split(' | ')[-1]
                     for address in address_tag]))
 
 # fill the form using above scraped data
-CHROME_DRIVER_PATH = "C:\Program Files\chromedriver_win32/chromedriver.exe"
-FORM_URL = 'https://forms.gle/uomLBDYXrh3JqwGS8'
+CHROME_DRIVER_PATH = 'YOUR DRIVER PATH'
+FORM_URL = 'FORM LINK'
 
 service = Service(CHROME_DRIVER_PATH)
 driver = webdriver.Chrome(service=service)
