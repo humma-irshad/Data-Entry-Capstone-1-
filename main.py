@@ -45,7 +45,6 @@ service = Service(CHROME_DRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
 driver.maximize_window()
-driver.get(FORM_URL)
 for i in range(len(href_list)):
     driver.get(FORM_URL)
     time.sleep(2)
